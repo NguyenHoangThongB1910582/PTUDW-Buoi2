@@ -1,0 +1,30 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "script": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owenthong/PTUDW_lab1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/owenthong/PTUDW_lab1/issues"
+  },
+  "homepage": "https://github.com/owenthong/PTUDW_lab1#readme",
+  "description": ""
+}
